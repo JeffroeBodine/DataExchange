@@ -26,5 +26,12 @@ namespace DataExchange.Controllers
 
             return View();
         }
+
+        public ActionResult DocumentDropOff()
+        {
+            ViewBag.Message = "Your document drop off page.";
+
+            return View();
+        }
     }
 }
